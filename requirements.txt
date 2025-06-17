@@ -1,0 +1,8 @@
+librosa
+numpy
+pandas
+torch
+torchaudio
+scikit-learn
+panns-inference
+matplotlib
