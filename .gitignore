@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Audio
+*.ogg
+*.wav
+*.mp3
+*.chart
+
+# Models
+models/
