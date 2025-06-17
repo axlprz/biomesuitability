@@ -1,8 +1,6 @@
-librosa
-numpy
 pandas
-torch
-torchaudio
+numpy
 scikit-learn
-panns-inference
 matplotlib
+seaborn
+folium
