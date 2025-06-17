@@ -12,15 +12,35 @@ The goal is to help identify potential habitats for selected animal species by a
 
 ## Project Structure
 
-    biome-suitability-ml/
-    ├── data/           # Processed CSV files (e.g., species + bioclim + biome class)
-    ├── notebooks/      # Jupyter notebooks for EDA, training, evaluation
-    ├── src/            # Python scripts for data merging, cleaning, modeling
-    ├── models/         # Trained model files (e.g., .pkl, .joblib)
-    ├── assets/         # Visual outputs like charts, maps, confusion matrices
-    ├── requirements.txt
-    ├── README.md
-    └── .gitignore
+biomesuitability/
+├── data/               # Processed data files (NOT raw GBIF downloads)
+│   ├── species_biome_env_dataset.csv
+│   └── biome_labels.csv
+│
+├── notebooks/          # All Jupyter notebooks
+│   ├── 1_dataset_merge_and_cleaning.ipynb
+│   ├── 2_model_training_knn_svm_dt_rf.ipynb
+│   ├── 3_model_evaluation_comparison.ipynb
+│   └── 4_biome_prediction_visualization.ipynb
+│
+├── src/                # Python scripts for reusable functions
+│   ├── preprocessing.py
+│   ├── model_utils.py
+│   └── evaluation.py
+│
+├── models/             # Trained models (e.g., .pkl or .joblib)
+│   ├── rf_model.pkl
+│   ├── svm_model.pkl
+│   └── knn_model.pkl
+│
+├── assets/             # Images and charts for README/demo
+│   ├── confusion_matrix_rf.png
+│   ├── biome_map_ocelot.png
+│   └── feature_importance.png
+│
+├── requirements.txt    # All Python dependencies
+├── README.md           # Full project description
+└── .gitignore
 
 ---
 
