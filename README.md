@@ -12,7 +12,7 @@ The goal is to help identify potential habitats for selected animal species by a
 
 ## Project Structure
 
-    biome-suitability-ml/
+    biomesuitability/
     ├── data/           # Processed CSV files (e.g., species + bioclim + biome class)
         ├── species_biome_env_dataset.csv
         └── biome_labels.csv
