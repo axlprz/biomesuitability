@@ -3,11 +3,9 @@ __pycache__/
 *.py[cod]
 *.ipynb_checkpoints
 
-# Audio
-*.ogg
-*.wav
-*.mp3
-*.chart
-
-# Models
+# Data/Models
+data/
 models/
+
+# Jupyter
+.ipynb_checkpoints/
