@@ -1,14 +1,18 @@
-# Clone Hero Chart Generator using Machine Learning
+# Biome Suitability Prediction for Fauna Species
 
-This project generates playable `.chart` files for Clone Hero based on input audio. It uses a machine learning pipeline with beat detection, instrument separation (Demucs), and fret classification using CNN or transfer learning with PANNs.
+This project uses machine learning to predict suitable biomes for animal species based on environmental variables (BIOCLIM data). It was developed using species occurrence data from GBIF and bioclimatic variables (BIO1–BIO14).
 
 ## Project Structure
-- `data/` – Sample training data
-- `notebooks/` – Model training and feature extraction notebooks
-- `src/` – Chart writer, model trainer, and data processing scripts
-- `models/` – Exported `.pt` or `.pkl` models
-- `assets/` – Demo charts, screenshots, or spectrograms
+- `data/` – Processed datasets (no raw data uploaded)
+- `notebooks/` – EDA and model training notebooks
+- `src/` – Python scripts for preprocessing and training
+- `models/` – Trained models (saved in .pkl or .joblib)
+- `assets/` – Charts, maps, and visual outputs for the README
 
-## Usage
-```bash
-python main.py --audio "song.ogg" --output "output.chart"
+## Results
+- SVM and KNN classifiers trained on bioclimatic variables
+- Visualizations of predicted biome suitability
+
+## Future Work
+- Expand dataset
+- Test ensemble models
