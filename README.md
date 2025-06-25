@@ -10,9 +10,8 @@ The goal is to help identify potential habitats for selected animal species by a
 
 ---
 
-## Project Structure
-
-```text
+<h2>Project Structure</h2>
+<pre>
 biomesuitability/
 ├── data/           # Processed CSV files
 │   ├── species_biome_env_dataset.csv
@@ -31,14 +30,15 @@ biomesuitability/
 │   ├── tuned_xgb.pkl
 │   ├── tuned_knn.pkl
 │   └── tuned_logreg.pkl
-├── assets/         # Visual outputs (charts, maps, confusion matrices)
+├── assets/         # Visual outputs
 │   ├── confusion_matrix_rf.png
 │   ├── biome_map_ocelot.png
 │   └── feature_importance.png
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-```
+</pre>
+
 
 ---
 
