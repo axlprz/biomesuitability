@@ -24,9 +24,9 @@ The goal is to help identify potential habitats for selected animal species by a
     │   ├── TunedKNN.ipynb
     │   └── TunedLogREG.ipynb
     ├── resources/
-    │   ├── wc2.1_10m_bio_1.tif to wc2.1_10_bio_19.tif
+    │   ├── wc2.1_10m_bio .tif files
     │   ├── ne_110m_land.shp
-    │   └── wwf_terr_ecos.shp
+    │   └── wwf_terr_ecos.shp file (too large to upload)
     ├── .gitignore
     ├── README.md
     └── requirements.txt
