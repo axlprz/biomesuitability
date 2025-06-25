@@ -15,7 +15,6 @@ The goal is to help identify potential habitats for selected animal species by a
     biomesuitability/
     ├── data/           # Processed CSV files
     │   ├── species_biome_env_dataset.csv
-    │   └── biome_labels.csv
     ├── notebooks/      # Jupyter notebooks for EDA, training, evaluation
     │   ├── 1_dataset_merge_and_cleaning.ipynb
     │   ├── 2_model_training_knn_svm_dt_rf.ipynb
