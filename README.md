@@ -39,13 +39,14 @@ biomesuitability/
 ├── README.md
 └── .gitignore
 ```
+
 ---
 
 ## Data Sources
 
-- **GBIF**: Species occurrence data downloaded as CSV  
-- **BIOCLIM**: Bioclimatic variables (BIO1 to BIO14) representing temperature and precipitation  
-- **Biome Labels**: Based on occurrence location polygons or manual region classification  
+- **GBIF**: Species occurrence data downloaded as CSV
+- **BIOCLIM**: Bioclimatic variables (BIO1 to BIO14) representing temperature and precipitation
+- **Biome Labels**: Based on occurrence location polygons or manual region classification
 
 Each row in the final dataset represents one occurrence, annotated with:
 - Species name
@@ -56,30 +57,30 @@ Each row in the final dataset represents one occurrence, annotated with:
 
 ## Preprocessing
 
-- Combined GBIF records with BIOCLIM values using spatial joins  
-- Filtered out landless and outlier coordinates using a landmask  
-- Removed species with insufficient occurrence data  
-- Encoded categorical features and normalized numerical ones  
-- Final dataset size: ~20,000 records, 14 features, multi-class target  
+- Combined GBIF records with BIOCLIM values using spatial joins
+- Filtered out landless and outlier coordinates using a landmask
+- Removed species with insufficient occurrence data
+- Encoded categorical features and normalized numerical ones
+- Final dataset size: ~20,000 records, 14 features, multi-class target
 
 ---
 
 ## Models Used
 
-- **K-Nearest Neighbors (KNN)**  
-- **Support Vector Machine (SVM)**  
-- **Decision Tree Classifier**  
-- **Random Forest Classifier**  
+- **K-Nearest Neighbors (KNN)**
+- **Support Vector Machine (SVM)**
+- **Decision Tree Classifier**
+- **Random Forest Classifier**
 - Models were evaluated using train/test splits with accuracy, F1-score, and confusion matrices.
 
 ---
 
 ## Results
 
-- Accuracy: ~70–85% depending on model and species  
-- Best performance achieved with Random Forest and SVM  
-- Confusion matrix revealed common misclassifications between neighboring biomes  
-- Visual maps of predicted vs. actual biomes for species like axolotl, ocelot, and blue macaw  
+- Accuracy: ~70–85% depending on model and species
+- Best performance achieved with Random Forest and SVM
+- Confusion matrix revealed common misclassifications between neighboring biomes
+- Visual maps of predicted vs. actual biomes for species like axolotl, ocelot, and blue macaw
 
 ---
 
@@ -92,11 +93,6 @@ pip install -r requirements.txt
 # Step 2: Launch notebooks
 jupyter notebook notebooks/eda_and_model_training.ipynb
 ```
-
-## Example Outputs
-
-1. Confusion matrix of predicted vs actual biome classes
-2. Predicted biome suitability for axolotl using trained classifier
 
 ---
 
