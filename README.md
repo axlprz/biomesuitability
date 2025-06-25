@@ -12,31 +12,31 @@ The goal is to help identify potential habitats for selected animal species by a
 
 ## Project Structure
 
-biomesuitability/
-├── data/           # Processed CSV files
-│   ├── species_biome_env_dataset.csv
-│   └── biome_labels.csv
-├── notebooks/      # Jupyter notebooks for EDA, training, evaluation
-│   ├── 1_dataset_merge_and_cleaning.ipynb
-│   ├── 2_model_training_knn_svm_dt_rf.ipynb
-│   ├── 3_model_evaluation_comparison.ipynb
-│   └── 4_biome_prediction_visualization.ipynb
-├── src/            # Python scripts for data merging, cleaning, modeling
-│   ├── preprocessing.py
-│   ├── model_utils.py
-│   └── evaluation.py
-├── models/         # Trained model files
-│   ├── tuned_rf.pkl
-│   ├── tuned_xgb.pkl
-│   ├── tuned_knn.pkl
-│   └── tuned_logreg.pkl
-├── assets/         # Visual outputs (charts, maps, confusion matrices)
-│   ├── confusion_matrix_rf.png
-│   ├── biome_map_ocelot.png
-│   └── feature_importance.png
-├── requirements.txt
-├── README.md
-└── .gitignore
+    biomesuitability/
+    ├── data/           # Processed CSV files
+    │   ├── species_biome_env_dataset.csv
+    │   └── biome_labels.csv
+    ├── notebooks/      # Jupyter notebooks for EDA, training, evaluation
+    │   ├── 1_dataset_merge_and_cleaning.ipynb
+    │   ├── 2_model_training_knn_svm_dt_rf.ipynb
+    │   ├── 3_model_evaluation_comparison.ipynb
+    │   └── 4_biome_prediction_visualization.ipynb
+    ├── src/            # Python scripts for data merging, cleaning, modeling
+    │   ├── preprocessing.py
+    │   ├── model_utils.py
+    │   └── evaluation.py
+    ├── models/         # Trained model files
+    │   ├── tuned_rf.pkl
+    │   ├── tuned_xgb.pkl
+    │   ├── tuned_knn.pkl
+    │   └── tuned_logreg.pkl
+    ├── assets/         # Visual outputs (charts, maps, confusion matrices)
+    │   ├── confusion_matrix_rf.png
+    │   ├── biome_map_ocelot.png
+    │   └── feature_importance.png
+    ├── requirements.txt
+    ├── README.md
+    └── .gitignore
 
 ---
 
