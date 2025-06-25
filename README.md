@@ -13,17 +13,17 @@ The goal is to help identify potential habitats for selected animal species by a
 ## Project Structure
 
     biomesuitability/
-    ├── data/           # Processed CSV files
+    ├── data/
     │   ├── species_biome_env_dataset.csv
-    ├── notebooks/      # Jupyter notebooks for EDA, training, evaluation
+    ├── notebooks/
     │   ├── 1_DF_Merger_BiomeSuitability.ipynb
     │   ├── 2_ModelComparison_BiomeSuitability.ipynb
-    ├── models/         # Trained models
+    ├── models/
     │   ├── TunedRF.ipynb
     │   ├── TunedXGB.ipynb
     │   ├── TunedKNN.ipynb
     │   └── TunedLogREG.ipynb
-    ├── resources/         # Visual output
+    ├── resources/
     │   ├── wc2.1_10m_bio_1.tif to wc2.1_10_bio_19.tif
     │   ├── ne_110m_land.shp
     │   └── wwf_terr_ecos.shp
