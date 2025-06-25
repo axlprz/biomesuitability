@@ -11,7 +11,7 @@ The goal is to help identify potential habitats for selected animal species by a
 ---
 
 ## Project Structure
-
+    ```
     biomesuitability/
     ├── data/           # Processed CSV files
     │   ├── species_biome_env_dataset.csv
@@ -37,7 +37,7 @@ The goal is to help identify potential habitats for selected animal species by a
     ├── requirements.txt
     ├── README.md
     └── .gitignore
-
+    ```
 ---
 
 ## Data Sources
