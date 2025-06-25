@@ -16,13 +16,13 @@ The goal is to help identify potential habitats for selected animal species by a
     ├── data/
         ├── species_biome_env_dataset.csv
     ├── notebooks/
-        ├── 1_DF_Merger_BiomeSuitability.ipynb
-        ├── 2_ModelComparison_BiomeSuitability.ipynb
+        ├── 1_DF_Merger_BiomeSuitability.py
+        ├── 2_ModelComparison_BiomeSuitability.py
     ├── models/
-        ├── TunedRF.ipynb
-        ├── TunedXGB.ipynb
-        ├── TunedKNN.ipynb
-        └── TunedLogREG.ipynb
+        ├── TunedRF.py
+        ├── TunedXGB.py
+        ├── TunedKNN.py
+        └── TunedLogREG.py
     ├── resources/
         ├── wc2.1_10m_bio .tif files
         ├── ne_110m_land.shp
