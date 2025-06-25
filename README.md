@@ -14,19 +14,19 @@ The goal is to help identify potential habitats for selected animal species by a
 
     biomesuitability/
     ├── data/
-    │   ├── species_biome_env_dataset.csv
+        ├── species_biome_env_dataset.csv
     ├── notebooks/
-    │   ├── 1_DF_Merger_BiomeSuitability.ipynb
-    │   ├── 2_ModelComparison_BiomeSuitability.ipynb
+        ├── 1_DF_Merger_BiomeSuitability.ipynb
+        ├── 2_ModelComparison_BiomeSuitability.ipynb
     ├── models/
-    │   ├── TunedRF.ipynb
-    │   ├── TunedXGB.ipynb
-    │   ├── TunedKNN.ipynb
-    │   └── TunedLogREG.ipynb
+        ├── TunedRF.ipynb
+        ├── TunedXGB.ipynb
+        ├── TunedKNN.ipynb
+        └── TunedLogREG.ipynb
     ├── resources/
-    │   ├── wc2.1_10m_bio .tif files
-    │   ├── ne_110m_land.shp
-    │   └── wwf_terr_ecos.shp file (too large to upload)
+        ├── wc2.1_10m_bio .tif files
+        ├── ne_110m_land.shp
+        └── wwf_terr_ecos.shp file (too large to upload)
     ├── .gitignore
     ├── README.md
     └── requirements.txt
