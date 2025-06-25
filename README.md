@@ -16,27 +16,39 @@ The goal is to help identify potential habitats for selected animal species by a
     ├── data/           # Processed CSV files
     │   ├── species_biome_env_dataset.csv
     ├── notebooks/      # Jupyter notebooks for EDA, training, evaluation
-    │   ├── 1_dataset_merge_and_cleaning.ipynb
-    │   ├── 2_model_training_knn_svm_dt_rf.ipynb
-    │   ├── 3_model_evaluation_comparison.ipynb
-    │   └── 4_biome_prediction_visualization.ipynb
-    ├── src/            # Python scripts for data merging, cleaning, modeling
-    │   ├── preprocessing.py
-    │   ├── model_utils.py
-    │   └── evaluation.py
-    ├── models/         # Trained model files
-    │   ├── tuned_rf.pkl
-    │   ├── tuned_xgb.pkl
-    │   ├── tuned_knn.pkl
-    │   └── tuned_logreg.pkl
+    │   ├── 1_DF_Merger_BiomeSuitability.ipynb
+    │   ├── 2_ModelComparison_BiomeSuitability.ipynb
+    ├── models/         # Trained models
+    │   ├── TunedRF.ipynb
+    │   ├── TunedXGB.ipynb
+    │   ├── TunedKNN.ipynb
+    │   └── TunedLogREG.ipynb
     ├── assets/         # Visual outputs
-    │   ├── confusion_matrix_rf.png
-    │   ├── biome_map_ocelot.png
-    │   └── feature_importance.png
+    │   ├── worldclim/
+    │        ├── wc2.1_10m_bio_1.tif
+    │        ├── wc2.1_10m_bio_2.tif
+    │        ├── wc2.1_10m_bio_3.tif
+    │        ├── wc2.1_10m_bio_4.tif
+    │        ├── wc2.1_10m_bio_5.tif
+    │        ├── wc2.1_10m_bio_6.tif
+    │        ├── wc2.1_10m_bio_7.tif
+    │        ├── wc2.1_10m_bio_8.tif
+    │        ├── wc2.1_10m_bio_9.tif
+    │        ├── wc2.1_10m_bio_10.tif
+    │        ├── wc2.1_10m_bio_11.tif
+    │        ├── wc2.1_10m_bio_12.tif
+    │        ├── wc2.1_10m_bio_13.tif
+    │        ├── wc2.1_10m_bio_14.tif
+    │        ├── wc2.1_10m_bio_15.tif
+    │        ├── wc2.1_10m_bio_16.tif
+    │        ├── wc2.1_10m_bio_17.tif
+    │        ├── wc2.1_10m_bio_18.tif
+    │        ├── wc2.1_10m_bio_19.tif
+    │   ├── ne_110m_land.shp
+    │   └── wwf_terr_ecos.shp
     ├── .gitignore
     ├── README.md
     └── requirements.txt
-
 
 ---
 
@@ -79,18 +91,6 @@ Each row in the final dataset represents one occurrence, annotated with:
 - Best performance achieved with Random Forest and SVM
 - Confusion matrix revealed common misclassifications between neighboring biomes
 - Visual maps of predicted vs. actual biomes for species like axolotl, ocelot, and blue macaw
-
----
-
-## How to Run
-
-```bash
-# Step 1: Install required libraries
-pip install -r requirements.txt
-
-# Step 2: Launch notebooks
-jupyter notebook notebooks/eda_and_model_training.ipynb
-```
 
 ---
 
