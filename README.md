@@ -59,8 +59,8 @@ Each row in the final dataset represents one occurrence, annotated with:
 ## Models Used
 
 - **K-Nearest Neighbors (KNN)**
-- **Support Vector Machine (SVM)**
-- **Decision Tree Classifier**
+- **Logistic Regression (LogReg)**
+- **XGBoost Classifier**
 - **Random Forest Classifier**
 - Models were evaluated using train/test splits with accuracy, F1-score, and confusion matrices.
 
@@ -69,7 +69,7 @@ Each row in the final dataset represents one occurrence, annotated with:
 ## Results
 
 - Accuracy: ~70–85% depending on model and species
-- Best performance achieved with Random Forest and SVM
+- Best performance achieved with Random Forest and Logistic Regression
 - Confusion matrix revealed common misclassifications between neighboring biomes
 - Visual maps of predicted vs. actual biomes for species like axolotl, ocelot, and blue macaw
 
