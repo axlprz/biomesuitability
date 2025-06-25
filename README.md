@@ -37,7 +37,7 @@ biomesuitability/
 │   └── feature_importance.png
 ├── .gitignore
 ├── README.md
-└── .requirements.txt
+└── requirements.txt
 ```
 
 ---
