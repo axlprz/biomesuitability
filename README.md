@@ -23,27 +23,8 @@ The goal is to help identify potential habitats for selected animal species by a
     │   ├── TunedXGB.ipynb
     │   ├── TunedKNN.ipynb
     │   └── TunedLogREG.ipynb
-    ├── assets/         # Visual outputs
-    │   ├── worldclim/
-    │        ├── wc2.1_10m_bio_1.tif
-    │        ├── wc2.1_10m_bio_2.tif
-    │        ├── wc2.1_10m_bio_3.tif
-    │        ├── wc2.1_10m_bio_4.tif
-    │        ├── wc2.1_10m_bio_5.tif
-    │        ├── wc2.1_10m_bio_6.tif
-    │        ├── wc2.1_10m_bio_7.tif
-    │        ├── wc2.1_10m_bio_8.tif
-    │        ├── wc2.1_10m_bio_9.tif
-    │        ├── wc2.1_10m_bio_10.tif
-    │        ├── wc2.1_10m_bio_11.tif
-    │        ├── wc2.1_10m_bio_12.tif
-    │        ├── wc2.1_10m_bio_13.tif
-    │        ├── wc2.1_10m_bio_14.tif
-    │        ├── wc2.1_10m_bio_15.tif
-    │        ├── wc2.1_10m_bio_16.tif
-    │        ├── wc2.1_10m_bio_17.tif
-    │        ├── wc2.1_10m_bio_18.tif
-    │        ├── wc2.1_10m_bio_19.tif
+    ├── resources/         # Visual output
+    │   ├── wc2.1_10m_bio_1.tif to wc2.1_10_bio_19.tif
     │   ├── ne_110m_land.shp
     │   └── wwf_terr_ecos.shp
     ├── .gitignore
