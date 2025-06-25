@@ -52,7 +52,7 @@ Each row in the final dataset represents one occurrence, annotated with:
 - Filtered out landless and outlier coordinates using a landmask
 - Removed species with insufficient occurrence data
 - Encoded categorical features and normalized numerical ones
-- Final dataset size: ~20,000 records, 14 features, multi-class target
+- Final dataset size: ~4,000 records, 19 features, multi-class target
 
 ---
 
@@ -77,7 +77,7 @@ Each row in the final dataset represents one occurrence, annotated with:
 
 ## Future Work
 
-1. Integrate NDVI and elevation as additional features
+1. Integrate NDVI (vegetation index) and elevation as additional features
 2. Include species traits (e.g., body size, diet) as predictors
 3. Predict multiple suitable biomes instead of just one
 4. Train on global rather than regional subsets
