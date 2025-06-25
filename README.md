@@ -35,9 +35,9 @@ biomesuitability/
 │   ├── confusion_matrix_rf.png
 │   ├── biome_map_ocelot.png
 │   └── feature_importance.png
-├── requirements.txt
+├── .gitignore
 ├── README.md
-└── .gitignore
+└── .requirements.txt
 ```
 
 ---
